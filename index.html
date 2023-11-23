@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="index.js"  defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Foumulaire de vete 2</title>
+</head>
+<body>
+ 
+
+    <form name="formulaire" class="formulaire">
+        <div id="text">  
+            <h1>site de vente</h1>
+        </div>
+      
+       
+        <fieldset>
+            <legend>information personelle</legend>
+            
+     <input type="text" placeholder="name">
+     <input type="email" placeholder="email">
+     <input type="number" placeholder="pasport">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Qu'aimeriez achetez</legend>
+        <h2>Selectionner un Fruit</h2>
+        <select name="Fruit" id="Fruit">
+            <option value="">Selectionner un Fruit</option>
+            <option value="Orange">orange</option>
+            <option value="Mangue">Mangue</option>
+            <option value="Citron">Citron</option>
+          
+          
+        </select>
+  
+    </fieldset>
+    <button onclick="additionner()">additionner</button>
+    <button onclick="finaliser()">finaliser</button>
+
+
+    </form>
+
+    
+</body>
+</html>
